@@ -1,0 +1,73 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Roboto';
+  box-sizing: border-box;
+}
+
+.time-text {
+  color: #64748b;
+  font-weight: bold;
+  font-size: 17px;
+  width: 120px;
+}
+
+.list-item {
+  display: flex;
+  margin: 20px;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+}
+
+.time-logo-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 100%;
+}
+
+@media (min-width: 768px) {
+  .time-logo-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.logo {
+  width: 30px;
+  height: 30px;
+}
+
+.logo-title-container {
+  display: flex;
+  margin-top: 15px;
+  width: 90%;
+}
+
+.title {
+  font-size: 18px;
+  color: #475569;
+}
+
+.domain-url {
+  color: #64748b;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.desc-container {
+  margin-left: 15px;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+}
+
+.del-logo {
+  width: 20px;
+}
